@@ -1,0 +1,23 @@
+html:
+
+mark up language is the back door of the web page.
+
+structure and layoutpart is managed by this markup language.
+
+it is managed in the document of the browser has structure of the webpage.
+
+XML  is another markup language.
+
+html is the blue print of the web application.
+
+css: beautification.
+
+styles/colors for the web application
+
+javascript: 
+
+adding functionality
+
+it is used interaction and some functionality.clicking on image or anything.
+
+
