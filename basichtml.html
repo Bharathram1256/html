@@ -1,0 +1,96 @@
+<!-- Create new html file
+create a webpage with heading as your name's portfolio :ex:Hero's Portfolio
+header to five details of your education , accomplishments, internships.
+headers,p,li,ul,ol,
+
+create input box for contact , email, query;
+
+options : what query : subject,education,internships.
+using radio button.
+
+select and options tags to make options where user can select gender.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio of a user</title>
+</head>
+
+<body>
+   <h1> Bharath's Portfolio</h1>
+    <p>
+        <h2>Education</h2>
+        <h3>B.tech</h3>
+        <ul>
+            <li>RGM</li>
+            <li>Course: ECE</li>
+            <LI>7.5 gpa</LI>
+        </ul>
+        <h3>Intermediate</h3>
+        <ul>
+            <li>Sri Chaitanya </li>
+            <li>MPC</li>
+            <LI>9.75 gpa</LI>
+        </ul>
+        <h3>10th</h3>
+        <ul>
+            <li>Sri Valmeeki High School  </li>
+            <li>10 gpa</li>
+        </ul>
+
+    </p>
+
+    <h2>Accomplishments</h2>
+    <ol>
+        <li>chess champion in discrict level while schooling</li>
+        
+    </ol>
+
+    <h2>Internships</h2>
+    <ol>
+        <li>AI-ML in Eduskills</li>
+        <li>Embedded in Eduskills </li>
+        
+    </ol>
+
+    <input type="text" placeholder="Write your Name Here">
+    <input type="email" placeholder="Write your Email Here">
+    <input type="query" placeholder="write your query Here">
+
+    <p>
+        <label for="">Select</label>
+        <label for="contact">
+            <input type="radio" name = "Select" id = "contact">
+            contact
+        </label>
+        <label for="email">
+            <input type="radio" name = "Select" id = "email">
+            email
+        </label>
+        <label for=" query">
+            <input type="radio" name = "Select" id = " query">
+            query
+        </label>
+
+    </p>
+
+    <p>
+        <label>Select your Gender</label>
+        <select name ="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+    </p>
+
+
+
+    
+
+    
+</body>
+</html>
