@@ -17,16 +17,31 @@ select and options tags to make options where user can select gender.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio of a user</title>
+    <title>Bio</title>
+
+    <!-- style tag -->
+    <!-- <style>
+        .header{
+            background-color: aqua;
+            border: 1px solid black;
+        }
+        #Education{
+            background-color: bisque;
+            border: 1px solid blue;
+        }
+    </style> -->
+
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
 
-    <div style="background-color: aqua;border: 1px solid rosybrown;"><h1> Bharath's Portfolio</h1></div>
+    <div class = "header"><h1> Bharath's Portfolio</h1></div>
 
     
     
-   <div style="background-color: rgb(132, 132, 222);border-color: brown;">
+   <div id = "Education">
 
     <p>
         <h2>Education</h2>
@@ -50,24 +65,30 @@ select and options tags to make options where user can select gender.
  
     </p></div>
 
-
-    <h2>Accomplishments</h2>
-    <ol>
-        <li>chess champion in discrict level while schooling</li>
+    <div id = "Accomplishments">
+        <h2>Accomplishments</h2>
+        <ol>
+            <li>chess champion while schooling</li>
         
-    </ol>
+        </ol>
+    </div>
 
+    <div class = "intern">
     <h2>Internships</h2>
     <ol>
         <li>AI-ML in Eduskills</li>
         <li>Embedded in Eduskills </li>
         
     </ol>
+    </div>
 
-    <input type="text" placeholder="Write your Name Here">
-    <input type="email" placeholder="Write your Email Here">
-    <input type="query" placeholder="write your query Here">
+    <div id="type">
+        <input type="text" placeholder="Write your Name Here">
+        <input type="email" placeholder="Write your Email Here">
+        <input type="query" placeholder="write your query Here">
 
+
+    
     <p>
         <label for="">Select</label>
         <label for="contact">
@@ -84,6 +105,7 @@ select and options tags to make options where user can select gender.
         </label>
 
     </p>
+</div>
 
     <p>
         <label>Select your Gender</label>
@@ -93,6 +115,7 @@ select and options tags to make options where user can select gender.
             <option value="Other">Other</option>
         </select>
     </p>
+
 
 
 

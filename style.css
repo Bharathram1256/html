@@ -1,0 +1,28 @@
+/* for class use . at the begining */
+/* for id use # at the begining */
+
+
+.header{
+    background-color: rgb(132, 241, 113);
+    border: 1px solid rgb(49, 37, 69);
+    }
+    #Education{
+        background-color: rgba(20, 94, 213, 0.378);
+        border: 1px solid blue;
+}
+    #Accomplishments{
+    background-color: rgb(203, 141, 232);
+    border: 1px solid red;
+}
+    .intern{
+        background-color: rgb(249, 113, 183);
+        border: 1px solid orchid;
+    }
+
+    #type{
+        background-color: rgb(216, 137, 216);
+        border-spacing: yellow;
+    }
+
+
+
