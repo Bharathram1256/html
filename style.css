@@ -1,30 +1,49 @@
 /* for class use . at the begining */
 /* for id use # at the begining */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .header{
     background-color: rgb(132, 241, 113);
     border: 1px solid rgb(49, 37, 69);
+    margin-bottom: 10px;
     }
     #Education{
         background-color: rgba(20, 94, 213, 0.378);
+        margin-bottom: rgb(125, 96, 231);
         border: 1px solid blue;
 }
     #Accomplishments{
-    background-color: rgb(203, 141, 232);
+    background-color: rgb(151, 55, 196);
     border: 1px solid red;
+    margin-block-end: yellow;
 }
     .intern{
         background-color: rgb(249, 113, 183);
         border: 1px solid orchid;
+        margin:red;
     }
 
     #type{
         background-color: rgb(216, 137, 216);
         border-spacing: yellow;
+        margin-inline-start: blue;
     }
 
-    #ids{
+    #gen{
         background-color: rgb(220, 53, 220);
-        border-spacing: yellow;
+        border: yellow;
+        margin: rgb(240, 240, 100);
     }
+
+    /* html,body{
+        height: 100%;
+        width: 100%;
+      }
+      
+      *{
+         margin: 0;
+         padding: 0;
+      } */
