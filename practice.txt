@@ -1,0 +1,4 @@
+table , button, anchor tag
+form
+font family, font weight, height and width
+margin and padding
