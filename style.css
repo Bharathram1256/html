@@ -2,48 +2,123 @@
 /* for id use # at the begining */
 *{
     margin: 0;
-    padding: 0;
+    
 }
+
+html,body{
+    height: 100%;
+    width: 100%;
+  }
+  
 
 .header{
+    display: flex;
+    height: 100px;
+    width: 100%;
     background-color: rgb(132, 241, 113);
-    border: 1px solid rgb(49, 37, 69);
-    margin-bottom: 10px;
+    /* border: 1px solid rgb(49, 37, 69); */
+   .header h4{
+    height: 100px;
+    width: 60%;
+   }
+    
     }
+    .type{
+        background-color:  rgb(132, 241, 113);
+        /* border: 1px solid rgb(49, 37, 69); */
+        display: flex;
+        height: 100px;
+        width: 40%;
+        justify-content: right;
+        text-align: right;
+    }
+    
     #Education{
-        background-color: rgba(20, 94, 213, 0.378);
-        margin-bottom: rgb(125, 96, 231);
-        border: 1px solid blue;
+        display: flex;
+        height: 260px;
+        width: 100%;
+        
+        /* border: 1px solid blue; */
 }
-    #Accomplishments{
-    background-color: rgb(151, 55, 196);
-    border: 1px solid red;
-    margin-block-end: yellow;
-}
+
+.edu0{
+   
+    width: 50%;
+    height: 260px;
+    background-color:rgb(234, 230, 173);
+    padding: 0px 0px 0px 25%;
+    
+    /* text-align: center; */
+} 
+
+.edu1{
+   
+    width: 50%;
+    height: 260px;
+    /* align-content: center; */
+    /* align-items: center; */
+} 
+
+
+.edu11{
+
+   
+    width: 100%;
+    height: 130px;
+    background-color: rgba(245, 36, 175, 0.378);
+    padding: 0px 0px 0px 25%;
+    /* align-items:center; */
+} 
+
+.edu2{
+   
+    width: 100%;
+    height: 130px;
+    background-color: rgba(20, 191, 103, 0.378);
+    padding: 0px 0px 0px 25%;
+    /* align-items:center ; */
+} 
     .intern{
         background-color: rgb(249, 113, 183);
-        border: 1px solid orchid;
-        margin:red;
+        
+        margin:1px;
     }
 
-    #type{
-        background-color: rgb(216, 137, 216);
-        border-spacing: yellow;
-        margin-inline-start: blue;
+   
+
+    /* text - align */
+    /* display :flex */
+
+    /* justify-content : place your element anywhere :horizontally */
+    /* align-items : place the elements anywhere vertically */
+
+    .container{
+       
+        display: flex;
+        height: 100px;
+
     }
 
-    #gen{
-        background-color: rgb(220, 53, 220);
-        border: yellow;
-        margin: rgb(240, 240, 100);
+    .child1{
+        background-color:lightgreen;
+        height: 100px;
+        width: 40%;
+        
     }
-
-    /* html,body{
-        height: 100%;
-        width: 100%;
-      }
-      
-      *{
-         margin: 0;
-         padding: 0;
-      } */
+    .child2{
+       height: 100px;
+       width: 60%;
+       display: flex;
+       background-color: lightcyan;
+       justify-content: center;
+       align-items: center;       
+    }
+    .child h4{
+        margin-right: 4px; 
+    }
+    
+    #Accomplishments{
+        background-color: rgb(209, 126, 247);
+        border: 1px ;
+        margin: 1px;
+    }
